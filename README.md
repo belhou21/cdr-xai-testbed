@@ -13,6 +13,7 @@ The controllers are simulated decision policies, not measured people. *Y* is the
 | File | Content |
 |---|---|
 | `cdr_testbed_v7_2.py` | The whole experiment in one file: generator, rules and safety filter, decision policies, recommenders, exact ceilings, statistics and tables. It is the exact code of the paper's final run. |
+| `final_run.ipynb` | The final run as executed in Jupyter (Python 3.13.5): the same code, without the file's five-line title header, with its complete printed output, so every number in the paper can be checked without running it again. It was rerun from the saved per-seed checkpoints (hence "Done in 0.3 min"), so its numbers are those of the original 38-minute run. |
 
 ## Requirements
 
